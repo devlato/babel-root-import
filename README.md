@@ -12,7 +12,7 @@ Babel plugin to add the opportunity to use `import` with root based paths.<br>
 import SomeExample from '../../../some/example.js';
 
 // With Babel-Root-Importer
-import SomeExample from '~/some/example.js';
+import SomeExample from '@/some/example.js';
 ```
 
 ## Install
@@ -50,6 +50,9 @@ If you want a custom root because for example all your files are in the src/js f
 If you like this project just give it a star :) I like stars.
 
 ## Change Log
+#### 3.1.1 - 2015-12-01 
+- Forked to rewrite and add custom home prefix
+
 #### 3.1.0 - 2015-12-01
 - Add possibility config the custom root path
 
