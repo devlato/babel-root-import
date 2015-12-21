@@ -50,7 +50,10 @@ If you want a custom root because for example all your files are in the src/js f
 If you like this project just give it a star :) I like stars.
 
 ## Change Log
-#### 3.1.1 - 2015-12-01 
+#### 3.1.2 - 2015-12-21
+- Update README
+
+#### 3.1.1 - 2015-12-21 
 - Forked to rewrite and add custom home prefix
 
 #### 3.1.0 - 2015-12-01
