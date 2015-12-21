@@ -50,6 +50,9 @@ If you want a custom root because for example all your files are in the src/js f
 If you like this project just give it a star :) I like stars.
 
 ## Change Log
+#### 3.1.3 - 2015-12-21
+- Add build
+
 #### 3.1.2 - 2015-12-21
 - Update README
 
