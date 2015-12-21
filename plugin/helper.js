@@ -19,7 +19,7 @@ export default function(path) {
 
       if (typeof string === 'string') {
         const firstTwoCharactersOfString = string.substring(0, 2);
-        if (firstTwoCharactersOfString === '~/') {
+        if (firstTwoCharactersOfString === '@/') {
           containsTilde = true;
         }
       }

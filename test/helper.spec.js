@@ -11,7 +11,7 @@ describe('Babel Root Import - Helper', () => {
 
       it('transforms given path relative root-path', () => {
         const rootPath = `${process.cwd()}/some/path`;
-        const result = BabelRootImportHelper().transformRelativeToRootPath('~/some/path');
+        const result = BabelRootImportHelper().transformRelativeToRootPath('@/some/path');
         expect(result).to.equal(rootPath);
       });
 
@@ -37,7 +37,7 @@ describe('Babel Root Import - Helper', () => {
 
     it('transforms given path relative root-path', () => {
       const rootPath = `${process.cwd()}/some/path`;
-      const result = BabelRootImportHelper().transformRelativeToRootPath('~/some/path');
+      const result = BabelRootImportHelper().transformRelativeToRootPath('@/some/path');
       expect(result).to.equal(rootPath);
     });
 
@@ -54,9 +54,9 @@ describe('Babel Root Import - Helper', () => {
       expect(func).to.be.a('boolean');
     });
 
-    it('check if a "~/" is at the beginning of the string', () => {
+    it('check if a "@/" is at the beginning of the string', () => {
       const withoutTilde = BabelRootImportHelper().hasTildeInString('some/path');
-      const withTilde = BabelRootImportHelper().hasTildeInString('~/some/path');
+      const withTilde = BabelRootImportHelper().hasTildeInString('@/some/path');
       expect(withoutTilde).to.be.false;
       expect(withTilde).to.be.true;
     });

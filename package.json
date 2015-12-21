@@ -1,15 +1,15 @@
 {
-  "name": "babel-root-import",
-  "version": "3.1.0",
+  "name": "babel-import-from-root",
+  "version": "3.1.1",
   "description": "Babel Plugin to enable relative root-import",
-  "author": "Michael J. Zoidl <github@michaelzoidl.com>",
+  "author": "Michael J. Zoidl <github@michaelzoidl.com>, D. Tokarev <npm@devlato.com>",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "index.js",
     "build"
   ],
-  "repository": "michaelzoidl/babel-root-import",
+  "repository": "devlato/babel-root-import",
   "scripts": {
     "test": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register",
     "test-watch": "mocha test/*.spec.js --require config/mocha.js --compilers js:babel-core/register --watch",
